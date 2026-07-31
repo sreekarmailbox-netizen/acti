@@ -38,3 +38,4 @@ jobs:
     steps:
       - name: notify success
         run: echo "failure mail sent to team"
+        run: echo "end of Deployment"
