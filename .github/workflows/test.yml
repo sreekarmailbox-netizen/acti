@@ -9,6 +9,6 @@ jobs:
      - name: test date
        run: date
      - name: test -ram
-       run: df-h
+       run: df -h
      - name: test -hostname
        run: hostname
