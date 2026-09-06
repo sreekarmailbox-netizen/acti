@@ -4,11 +4,10 @@ jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
-     - name: test-step
-       run: echo “job-1 is completed”
-     - name: test date
-       run: date
-     - name: test -ram
-       run: df -h
-     - name: test -hostname
-       run: hostname
+      - name: system-info
+        run: |
+          echo " this is first line"
+          echo " this is second line"
+          date
+          hostname
+          free -m
