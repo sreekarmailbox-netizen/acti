@@ -1,8 +1,8 @@
-Name: test-work
-On: workflow_dispatch
-Jobs:
-  Job-1:
-    Runs-on: ubuntu-latest
-    Steps:
-      Name: test-step
-      Run: echo “job-1 is completed”
+name: test-work
+on: workflow_dispatch
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+     - name: test-step
+       run: echo “job-1 is completed”
